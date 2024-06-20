@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --azul-escuro: #2b2d42ff;
+    --azul-claro: #8d99aeff;
+    --branco: #edf2f4ff;
+    --vermelho-claro: #ef233cff;
+    --vermelho-escuro: #d90429ff;
+    --fonte-título: "Rubik", sans-serif;
+    --fonte-texto: "Roboto Mono", monospace;
+}
