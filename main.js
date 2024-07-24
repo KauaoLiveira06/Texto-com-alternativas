@@ -5,10 +5,10 @@ const caixaResultado = document.querySelector('.caixa-resultado');
 const textoResultado = document.querySelector('.texto-resultado');
 const perguntas = [
     {
-        enunciado: "Pergunta 1",
+        enunciado: "O que vc acha de começarmos a entender o racismo a partir de uma história onde você é o protagonista? Aos 14 anos, você enfrenta o racismo desde criança. Criado por pais que o ensinaram a valorizar sua identidade, você testemunha um episódio de discriminação na escola e decide intervir, defendendo seus amigos e promovendo a igualdade racial.",
         alternativas: [
-            "Alternativas 1",
-            "Alternativas 2"
+            "Você se engaja em atividades e protestos contra o racismo, inspirando outros jovens e construindo uma comunidade de apoio.",
+            "Você deixa isso de lado, é um caminho difícil e sem garantia de que irá dar certo, pois há muitas pessoas com mente fechada e que irão demontrar resitência."
         ]
     },
     {
@@ -47,12 +47,15 @@ let perguntaAtual;
 function mostraPergunta(){
     perguntaAtual = perguntas[atual];
     caixaPerguntas.textContent = perguntaAtual.enunciado;
-    mostraPergunta();
+    mostraAlternativas();
 }
 
 function mostraAlternativas(){
     for(const alternativa of perguntaAtual.alternativas){
         const botaoAlternativas = document.createElement("button");
-        caixaAlternativas.appendChild(botaoAlternativas)
+        botaoAlternativas.textContent = alternativa;
+        caixaAlternativas.appendChild(botaoAlternativas);
     }
 }
+
+mostraPergunta();

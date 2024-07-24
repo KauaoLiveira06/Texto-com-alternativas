@@ -2,14 +2,53 @@
 *{
     margin: 0;
     padding: 0;
+    font-weight: 400;
 }
 
 :root {
     --azul-escuro: #2b2d42ff;
     --azul-claro: #8d99aeff;
     --branco: #edf2f4ff;
-    --vermelho-claro: #ef233cff;
-    --vermelho-escuro: #d90429ff;
+    --vermeio-claro: #ef233cff;
+    --vermeio-escuro: #d90429ff;
     --fonte-título: "Rubik", sans-serif;
     --fonte-texto: "Roboto Mono", monospace;
+}
+
+body {
+    background-color: var(--vermeio-escuro);
+    color: var(--branco);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: var(--fonte-texto);
+}
+
+.caixa-principal {
+    background-color: var(--vermeio-claro);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+}
+
+.titulo {
+    color: var(--branco);
+    font-family: var(--fonte-título);
+    padding: 15px;
+}
+
+button {
+    background-color: var(--branco);
+    color: var(--azul-escuro);
+    border: 15px;
+    border-radius: 15px;
+    padding: 10px;
+    transition: 0.3s;
+    margin: 10px auto;
+}
+
+button:hover {
+    background-color: var(--azul-claro);
 }
