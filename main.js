@@ -5,11 +5,11 @@ const caixaResultado = document.querySelector('.caixa-resultado');
 const textoResultado = document.querySelector('.texto-resultado');
 const perguntas = [
     {
-        enunciado: "O que vc acha de começarmos a entender o racismo a partir de uma história onde você é o protagonista? Aos 14 anos, Jorlan enfrenta o racismo desde criança. Criado por pais que o ensinaram a valorizar sua identidade, ele testemunha um episódio de discriminação na escola e decide intervir, defendendo seus amigos e promovendo a igualdade racial.",
+        enunciado: "O que vc acha de começarmos a entender o racismo a partir de uma história? Aos 14 anos, Jorlan enfrenta o racismo desde criança. Criado por pais que o ensinaram a valorizar sua identidade, ele testemunha um episódio de discriminação na escola e decide intervir, defendendo seus amigos e promovendo a igualdade racial.",
         alternativas: [
             {
                 texto: "Jorlan está totalmente correto com sua atitude, combatendo e defendendo seu posicionamento sobre o racismo desde criança.",
-                afirmacao: "Com isso, Jorlan cresce recebendo diversos elogios e com a ideia de combate ao racismo em sua mente, criando diversas campanhas combatendo a discriminação."
+                afirmacao: "Com isso, Jorlan cresce recebendo diversos elogios e com a ideia de combate ao racismo em sua mente."
             },
             {
                 texto: "É melhor Jorlan deixar isso de lado, é um caminho difícil e sem garantia de que irá dar certo, pois há muitas pessoas com mente fechada e que irão demontrar resitência.",
@@ -19,7 +19,7 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Jorlan ",
+        enunciado: "Jorlan está totalmente correto com sua atitude, combatendo e defendendo seu posicionamento sobre o racismo desde criança.",
         alternativas: [
             {
                 texto: "Alternativa 03",
@@ -108,7 +108,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostreResultado() {
-    caixaPerguntas.textContent = "O que vc acha de começarmos a entender o racismo a partir de uma história onde você é o protagonista? Aos 14 anos, Jorlan enfrenta o racismo desde criança. Criado por pais que o ensinaram a valorizar sua identidade, ele testemunha um episódio de discriminação na escola e decide intervir, defendendo seus amigos e promovendo a igualdade racial.";
+    caixaPerguntas.textContent = "O que vc acha de começarmos a entender o racismo a partir de uma história? Aos 14 anos, Jorlan enfrenta o racismo desde criança. Criado por pais que o ensinaram a valorizar sua identidade, ele testemunha um episódio de discriminação na escola e decide intervir, defendendo seus amigos e promovendo a igualdade racial.";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
