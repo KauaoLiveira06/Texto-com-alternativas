@@ -10,6 +10,7 @@
     --azul-claro: #8d99aeff;
     --branco: #edf2f4ff;
     --vermeio-claro: #ef233cff;
+    --vermeio-de-fundo: rgb(243, 96, 113);
     --vermeio-escuro: #d90429ff;
     --fonte-título: "Rubik", sans-serif;
     --fonte-texto: "Roboto Mono", monospace;
@@ -31,12 +32,14 @@ body {
     max-width: 600px;
     text-align: center;
     padding: 20px;
+    font-size: medium;
 }
 
 .titulo {
     color: var(--branco);
     font-family: var(--fonte-título);
     padding: 15px;
+    font-size: 50px;
 }
 
 button {
@@ -47,8 +50,14 @@ button {
     padding: 10px;
     transition: 0.3s;
     margin: 10px auto;
+    font-size: large;
 }
 
 button:hover {
     background-color: var(--azul-claro);
+}
+
+.caixa-perguntas {
+    background-color: var(--vermeio-escuro);
+    padding: 15px;
 }

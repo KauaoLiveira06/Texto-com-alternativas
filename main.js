@@ -5,42 +5,37 @@ const caixaResultado = document.querySelector('.caixa-resultado');
 const textoResultado = document.querySelector('.texto-resultado');
 const perguntas = [
     {
-        enunciado: "O que vc acha de começarmos a entender o racismo a partir de uma história? Aos 14 anos, Jorlan enfrenta o racismo desde criança. Criado por pais que o ensinaram a valorizar sua identidade, ele testemunha um episódio de discriminação na escola e decide intervir, defendendo seus amigos e promovendo a igualdade racial.",
+        enunciado: "O que você acha de começarmos a entender o racismo a partir de uma história? Aos 14 anos, Jorlan enfrenta o racismo desde criança. Criado por pais que o ensinaram a valorizar sua identidade, ele testemunha um episódio de discriminação na escola e decide intervir, defendendo seus amigos e promovendo a igualdade racial.",
         alternativas: [
             {
-                texto: "Jorlan está totalmente correto com sua atitude, combatendo e defendendo seu posicionamento sobre o racismo desde criança.",
-                afirmacao: "Com isso, Jorlan cresce recebendo diversos elogios e com a ideia de combate ao racismo em sua mente."
-            },
-            {
-                texto: "É melhor Jorlan deixar isso de lado, é um caminho difícil e sem garantia de que irá dar certo, pois há muitas pessoas com mente fechada e que irão demontrar resitência.",
-                afirmacao: "Jorlan se desmotiva com a ideia e acaba cedendo aos ideais definidos pela sociedade."
+                texto: "Continuar",
             }
             
         ]
     },
     {
-        enunciado: "Jorlan está totalmente correto com sua atitude, combatendo e defendendo seu posicionamento sobre o racismo desde criança.",
+        enunciado: "Você concorda com as ideias e o posicionamento de Jorlan?",
         alternativas: [
             {
-                texto: "Alternativa 03",
-                afirmacao: "Resultado 03"
+                texto: "Sim, Há anos esse assunto não apresentava esperança, e agora pode ser resolvido.",
+                afirmacao: "Jorlan se motiva e luta ainda mais para o fim do racismo no mundo."
             },
             {
-                texto: "Alternativa 04",
-                afirmacao: "Resultado 04"
+                texto: "Não, acho que desistir disso é a melhor opção, é ele contra o mundo, isso não dará certo.",
+                afirmacao: "Jorlan deixa de acreditar na possibilidade de acabar com o racismo."
             }
             
         ]
     },
     {
-        enunciado: "Perguntas 3",
+        enunciado: "Quais atitudes você acha que Jorlan poderia tomar para começar esse projeto?",
         alternativas: [
             {
-                texto: "Alternativa 05",
+                texto: "Ele pode começar com campanhas educativas sobre o racismo, buscando apoio e suporte de sindicatos.",
                 afirmacao: "Resultado 05"
             },
             {
-                texto: "Alternativa 06",
+                texto: "Não tem nenhuma chance disso dar certo, qualquer atitude não passa de um mero esforço em vão.",
                 afirmacao: "Resultado 06"
             }
 
@@ -108,7 +103,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostreResultado() {
-    caixaPerguntas.textContent = "O que vc acha de começarmos a entender o racismo a partir de uma história? Aos 14 anos, Jorlan enfrenta o racismo desde criança. Criado por pais que o ensinaram a valorizar sua identidade, ele testemunha um episódio de discriminação na escola e decide intervir, defendendo seus amigos e promovendo a igualdade racial.";
+    caixaPerguntas.textContent = "Aos 14 anos, Jorlan enfrenta o racismo desde criança. Criado por pais que o ensinaram a valorizar sua identidade, ele testemunha um episódio de discriminação na escola e decide intervir, defendendo seus amigos e promovendo a igualdade racial.";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
