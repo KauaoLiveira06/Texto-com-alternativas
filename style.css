@@ -56,8 +56,3 @@ button {
 button:hover {
     background-color: var(--azul-claro);
 }
-
-.caixa-perguntas {
-    background-color: var(--vermeio-escuro);
-    padding: 15px;
-}

@@ -5,7 +5,7 @@ const caixaResultado = document.querySelector('.caixa-resultado');
 const textoResultado = document.querySelector('.texto-resultado');
 const perguntas = [
     {
-        enunciado: "O que você acha de começarmos a entender o racismo a partir de uma história? Aos 14 anos, Jorlan enfrenta o racismo desde criança. Criado por pais que o ensinaram a valorizar sua identidade, ele testemunha um episódio de discriminação na escola e decide intervir, defendendo seus amigos e promovendo a igualdade racial.",
+        enunciado: "O que você acha de começarmos a entender o racismo a partir de uma história? Aos 14 anos, Jorlan enfrenta o racismo desde criança. Criado por pais que o ensinaram a valorizar sua identidade, ele testemunha um episódio de discriminação na escola e decide intervir, defendendo seus amigos e promovendo a igualdade racial...",
         alternativas: [
             {
                 texto: "Continuar",
@@ -28,28 +28,28 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Quais atitudes você acha que Jorlan poderia tomar para começar esse projeto?",
+        enunciado: "Quais atitudes você acha que Jorlan poderia tomar para começar essa mudança?",
         alternativas: [
             {
                 texto: "Ele pode começar com campanhas educativas sobre o racismo, buscando apoio e suporte de sindicatos.",
                 afirmacao: "Resultado 05"
             },
             {
-                texto: "Não tem nenhuma chance disso dar certo, qualquer atitude não passa de um mero esforço em vão.",
+                texto: "Não tem nenhuma chance disso dar certo, qualquer atitude não passa de um esforço em vão.",
                 afirmacao: "Resultado 06"
             }
 
         ]
     },
     {
-        enunciado: "Perguntas 4",
+        enunciado: "O que você pensa sobre o racismo?",
         alternativas: [
             {
-                texto: "Alternativa 07",
+                texto: "Absurdo! Julgar e discriminar uma vida só pela cor de sua pele? Quem faz isso não possui amor nem por si próprio, alguém extremamente inflexível e sem ética.",
                 afirmacao: "Resultado 07"
             },
             {
-                texto: "Alternativa 08",
+                texto: "Eu acho uma total frescura das pessoas que sofrem com isso, é só relevar essa 'discriminação' e seguir em frente!",
                 afirmacao: "Resultado 08"
             }
             
