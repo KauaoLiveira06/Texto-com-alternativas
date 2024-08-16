@@ -7,17 +7,16 @@
 
 :root {
     --azul-escuro: #2b2d42ff;
-    --azul-claro: #8d99aeff;
+    --azul-claro: rgb(119, 136, 167);
     --branco: #edf2f4ff;
-    --vermeio-claro: #ef233cff;
-    --vermeio-de-fundo: rgb(243, 96, 113);
-    --vermeio-escuro: #d90429ff;
+    --cinza: #383838;
+    --preto: #000000;
     --fonte-título: "Rubik", sans-serif;
     --fonte-texto: "Roboto Mono", monospace;
 }
 
 body {
-    background-color: var(--vermeio-escuro);
+    background-color: var(--azul-escuro);
     color: var(--branco);
     display: flex;
     justify-content: center;
@@ -27,7 +26,7 @@ body {
 }
 
 .caixa-principal {
-    background-color: var(--vermeio-claro);
+    background-color: var(--azul-claro);
     width: 90%;
     max-width: 600px;
     text-align: center;
@@ -44,15 +43,16 @@ body {
 
 button {
     background-color: var(--branco);
-    color: var(--azul-escuro);
+    color: var(--preto);
     border: 15px;
     border-radius: 15px;
     padding: 10px;
     transition: 0.3s;
     margin: 10px auto;
     font-size: large;
+    font-stretch: expanded;
 }
 
 button:hover {
-    background-color: var(--azul-claro);
+    background-color: var(--cinza);
 }
