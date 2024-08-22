@@ -9,7 +9,7 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Continuar",
-                afirmacao: "Tudo começou com..."
+                afirmacao: " "
             }
             
         ]
